@@ -1,0 +1,40 @@
+# --- Identity ---
+name: "study-session-flow"
+display_name: "Study Session Flow"
+description: "Structured study session: notes, flashcards, and practice questions"
+version: "1.0.0"
+engine: ">=1.0.0"
+
+# --- Attribution ---
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+
+licence: "MIT"
+repository: "https://github.com/skrpts/study-session-flow"
+
+# --- Discovery (Hub) ---
+category: "student"
+tags:
+  - "study"
+  - "notes"
+  - "revision"
+
+# --- Security & Access ---
+requires:
+  services:
+    - "anthropic-claude"
+    - "openai-gpt4"
+  permissions: []
+  data_handling: []
+
+# --- Contents ---
+contents:
+  skills: 1
+  prompts: 3
+  workflows: 1
+  services: 0
+  sources: 0
+  documents: 1
+  assets: 1
+  total: 7
