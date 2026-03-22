@@ -45,7 +45,12 @@ A complete study session package containing:
 
 | Name | Required | Description | Example |
 |------|----------|-------------|---------|
-| `{{input.brief}}` | Yes | Primary workflow brief or source content | `Paste a short brief describing the goal, audience, and constraints.` |
+| `{{input.module_name}}` | Yes | The module or subject name | `Introduction to Psychology` |
+| `{{input.topic}}` | Yes | The topic to study | `Classical conditioning` |
+| `{{input.study_material}}` | Yes | Raw study material (lecture notes, readings, etc.) | `Paste your lecture notes or study material here.` |
+| `{{input.card_count}}` | No | Number of flashcards to generate | `15` |
+| `{{input.question_count}}` | No | Number of practice questions to generate | `10` |
+| `{{input.exam_type}}` | No | Exam style for practice questions | `short answer and essay` |
 
 ## Outputs
 
@@ -72,6 +77,11 @@ Before running this workflow:
 To test this workflow immediately after import:
 
 ```
-Brief: "Paste a short brief describing the goal, audience, and constraints."
+Module Name: "Introduction to Psychology"
+Topic: "Classical conditioning"
+Study Material: "Paste your lecture notes or study material here."
+Card Count: "15"
+Question Count: "10"
+Exam Type: "short answer and essay"
 ```
 

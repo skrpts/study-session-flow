@@ -3,7 +3,7 @@ type: document
 id: study-methods-guide
 title: Study Methods Guide
 description: "Guide to effective study techniques and methods"
-tags: []
+tags: [Production]
 connections: []
 ---
 
