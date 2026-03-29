@@ -3,7 +3,7 @@ type: workflow
 id: study-session-flow
 title: Study Session Flow
 description: "Structured study session: notes, flashcards, and practice questions"
-tags: [Tested, learning:retention, learning:study]
+tags: [Tested, Learning, Academic]
 connections:
   - target: note-taking
     type: uses

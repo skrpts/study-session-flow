@@ -3,7 +3,7 @@ type: asset
 id: cornell-notes-template
 title: Cornell Notes Template
 description: "Template for structured note-taking using the Cornell method"
-tags: [Production, learning:study, learning:comprehension]
+tags: [Production, Learning, Academic]
 connections: []
 ---
 
