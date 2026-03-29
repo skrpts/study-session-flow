@@ -7,7 +7,11 @@ tags: [Tested]
 connections:
   - target: note-taking
     type: uses
+  - target: study-planning
+    type: uses
   - target: take-notes
+    type: uses
+  - target: plan-studies
     type: uses
   - target: flashcard-creator
     type: uses
@@ -15,6 +19,8 @@ connections:
     type: uses
   - target: llm-service
     type: runs_on
+  - target: learning-science-reference
+    type: references
 ---
 
 ## Overview
