@@ -21,6 +21,10 @@ connections:
     type: runs_on
   - target: learning-science-reference
     type: references
+  - target: study-methods-guide
+    type: references
+  - target: cornell-notes-template
+    type: references
 ---
 
 ## Overview
