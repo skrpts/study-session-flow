@@ -3,7 +3,7 @@ id: "2d27b9b6-7765-414c-9afb-999513308a6a"
 name: "study-session-flow"
 display_name: "Study Session Flow"
 description: "Structured study session: notes, flashcards, and practice questions"
-version: "1.2.6"
+version: "1.2.7"
 engine: ">=1.0.0"
 
 # --- Attribution ---

@@ -21,7 +21,6 @@ execution:
   - skill: "note-taking"
     step_type: "synthesis"
   - skill: "study-planning"
-    input_from: "note-taking"
     step_type: "generation"
 ---
 
