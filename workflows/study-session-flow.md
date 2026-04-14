@@ -17,6 +17,10 @@ connections:
     type: references
   - target: cornell-notes-template
     type: references
+output_step: "study-planning"
+composite_steps:
+  - "note-taking"
+  - "study-planning"
 execution:
   - skill: "note-taking"
     step_type: "synthesis"
