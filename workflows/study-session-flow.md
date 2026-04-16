@@ -9,6 +9,8 @@ connections:
     type: uses
   - target: study-planning
     type: uses
+  - target: language-polish
+    type: uses
   - target: llm-service
     type: runs_on
   - target: learning-science-reference
@@ -17,15 +19,18 @@ connections:
     type: references
   - target: cornell-notes-template
     type: references
-output_step: "study-planning"
+output_step: "language-polish"
 composite_steps:
   - "note-taking"
   - "study-planning"
+  - "language-polish"
 execution:
   - skill: "note-taking"
     step_type: "synthesis"
   - skill: "study-planning"
     step_type: "generation"
+  - skill: "language-polish"
+    step_type: "content"
 ---
 
 ## Overview
