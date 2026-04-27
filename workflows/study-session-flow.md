@@ -29,8 +29,10 @@ execution:
     step_type: "synthesis"
     prompt: "take-notes"
   - skill: "study-planning"
+    prompt: "plan-studies"
     step_type: "generation"
   - skill: "language-polish"
+    prompt: "polish-language"
     step_type: "content"
 ---
 
