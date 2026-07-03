@@ -3,7 +3,7 @@ id: "2d27b9b6-7765-414c-9afb-999513308a6a"
 name: "study-session-flow"
 display_name: "Study Session Flow"
 description: "Structured study session: notes, flashcards, and practice questions"
-version: "1.2.23"
+version: "1.2.24"
 engine: ">=0.1.0"
 
 # --- Attribution ---
@@ -84,3 +84,17 @@ contents:
   documents: 1
   assets: 0
   total: 2
+
+security:
+  status: "pass"
+  scanned_at: "2026-07-03T11:10:48.353Z"
+  scanner_version: "3.3.0"
+  syntactic: "pass"
+  structural: "pass"
+  detected:
+    services: ["llm-service"]
+    permissions: []
+    data_handling: []
+  undeclared: []
+  warnings: []
+  report_url: "https://hub.skrptiq.ai/skrpts/study-session-flow/security"

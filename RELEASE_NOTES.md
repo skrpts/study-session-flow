@@ -1,5 +1,8 @@
 # Release Notes
 
+## v1.2.24
+GH#745 — declare per-step `output: {name, type}` on every execution step (notes/text, study_plan/text, polished_output/text). Lights up the #744 rich flow-map. Content-only; no bindings or logic changes.
+
 ## v1.2.23
 GH#645 Row 3b — migrate to K-037 dep-referenced schema. Strip 11 inline shared-content files and declare 11 hub-shared deps (UUID id + slug name + version + checksum from `gen-dep-checksums.mjs`). Closes pre-Step-3 inline-vendoring for this bundle.
 

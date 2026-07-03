@@ -28,12 +28,15 @@ execution:
   - skill: "note-taking"
     step_type: "synthesis"
     prompt: "take-notes"
+    output: { name: "notes", type: "text" }
   - skill: "study-planning"
     prompt: "plan-studies"
     step_type: "generation"
+    output: { name: "study_plan", type: "text" }
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
+    output: { name: "polished_output", type: "text" }
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"
